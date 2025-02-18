@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: veterinaria
+  server:
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: 
+      - text/xml
+      - text/plain
+      - application/json
+
